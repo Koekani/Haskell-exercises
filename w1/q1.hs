@@ -1,0 +1,2 @@
+months = ["none", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+whichMonth x = if x > 0 && x < 13 then months !! x else "Incorrect month number"

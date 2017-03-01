@@ -1,0 +1,1 @@
+data Date = Date Int Int Int deriving (Show)
